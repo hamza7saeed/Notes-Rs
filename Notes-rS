@@ -1,0 +1,11 @@
+let notes = [5000, 1000, 500, 100, 50, 20, 10, 5, 2, 1];
+
+let getVal = alert('Enter value');
+for (let i of notes) {
+  // console.log(i)
+  let count = parseInt(getVal / i);
+  // console.log(count);
+
+  getVal -= count * i;
+  console.log(i + ' Rs notes in = ' + count);
+}
